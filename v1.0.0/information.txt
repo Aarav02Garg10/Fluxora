@@ -1,0 +1,6 @@
+
+Js CDN:
+<script src="#" integrity="blake2b-409bc405ed03dba63451872ed81d1cb71fec07843e3e07390cc0564af50a0c3033a95c1fec5a517fd736bae74b39225a5564d284af5525a61987f6e842162865" crossorigin:"anonymus">
+
+CSS CDN:
+<link rel="stylesheet" href="#" type="text/css" integrity="sha224-b624f1e54af287177b77814feaa4f95a2966a2e3c20932ef2842978a" crossorigin="anonymus">
