@@ -1,3 +1,4 @@
+
 //This is for definition class
 
 const dfn = document.querySelectorAll(.definition h1,h2,h3,h4);
