@@ -1,5 +1,9 @@
 {
-    "versions":["1.0.0"],
-    "latest version":"1.0.0",
-    "changes made":{}
+    "versions":["1.0.0","1.0.1"],
+    "latest version":"1.0.1",
+    "changes made":{
+        "1.0.0 to 1.0.1":"Defined the width and height of body as an bug fix and added some extra line breaks in 
+        javascript. Also a if statement is added",
+    }
+    }
 }
