@@ -1,9 +1,11 @@
 {
-    "versions":["1.0.0","1.0.1"],
-    "latest version":"1.0.1",
-    "changes made":{
-        "1.0.0 to 1.0.1":"Defined the width and height of body as an bug fix and added some extra line breaks in 
-        javascript. Also a if statement is added",
+        "versions":["1.0.0","1.0.1","1.0.2"],
+        "latest version":"1.0.2",
+        "changes made":{
+            "1.0.0 to 1.0.1":"Defined the width and height of body as an bug fix and added some extra line breaks in 
+            javascript. Also a if statement is added",
+            "1.0.1 to 1.0.2":"The css has extra layers and extra nesting and removed some extra
+            lines. Also the js file has more security"
+        }
     }
-    }
-}
+
