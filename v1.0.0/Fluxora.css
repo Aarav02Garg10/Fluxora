@@ -27,6 +27,7 @@
 		inherits: false;
 	}
 	/*these are default styles*/
+    @layer startStyles{
 	body{
 		width:100%;
 		height:auto;
@@ -45,6 +46,7 @@
 		background-color: #ed0e25;
 		color:white;
 	}
+}
 	/*the above ones are all default styles*/
 	.normalstyle{
 		all:initial
@@ -55,16 +57,17 @@
 /*These are all link styles*/
 .linkstyle1{
 	text-decoration:none;
+    &:link{
+        color:#0000EE;
+    }
+    &:visited{
+        color:#0000EE;
+    }
+    &:hover{
+        color:#b8361c;
+    }
 }
-.linkstyle1:link{
-	color:#0000EE;
-}
-.linkstyle1:visited{
-	color:#0000EE ;
-}
-.linkstyle1:hover{
-	color:#b8361c;
-}
+
 .link-style-2 :visited{
 	/*to hide the text*/
 	text-indent: 100%;
@@ -161,15 +164,22 @@ text-align:center !important;
 		background-color: #ed0e25;
 		color:white;
 	}
-	
+	/*homepage class is applied on body element when a filename is index.html*/
+    @layer homepage{
 	.homepage-order nav{
 		text-align: left;
-	}
-	/*homepage class is applied on body element when a filename is index.html*/
-	.homepage footer a:visited,a:link{
-		color: blue;
-		text-decoration: none;
-	}
+        .homepage footer a{
+            &:link{
+                color: blue;
+		        text-decoration: none;
+            }
+            &:visited{
+                color: purple;
+		        text-decoration: none;
+            }
+        }
+    }
+}
 	/*these are all colours*/
 	.sunsetOrange{
 		color:#FF6F61;
@@ -375,21 +385,17 @@ text-align:center !important;
 .bg-India{
 	background-color:linear-gradient(to bottom,var(--Saffron) 33.33333%,var(--White)33.333333%,var(--Green)44%);
 }
-.bg-India-proper{
-
-}
 /*These are all invite classes*/
 .invite{
     border:2px solid red;
 	padding:1rem;
 	margin:5px 10px;
-	
-}
 
-.invite h2{
-	font-size:32px;
-	color:black;
-	text-decoration: underline overline red;
+	& h2{
+		font-size:32px;
+		color:black;
+		text-decoration: underline overline red;
+	}
 }
 
 /*Invite is till here*/ 
@@ -679,100 +685,3 @@ text-align:center !important;
 	-webkit-animation-name: appear left;
 	-webkit-animation-duration: 3s;
 }
-
-
-
-		
-		
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-	
-	
-	
-	
-	
-	
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
